@@ -1,2 +1,14 @@
-<!--pages/video/video.wxml-->
-<text>pages/video/video.wxml</text>
+<view class="page">
+    <view class="page__title">LPython视频</view>
+    <scroll-view scroll-y bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" >
+    <view class="page__bd">
+        <view class="weui-grids">
+            <block wx:for="{{grids}}" wx:key="*this">
+                <navigator url="" hover-class="weui-grid_active">   
+                    <view class="grid_item_style">Grid</view>
+                </navigator>
+            </block>
+        </view>
+    </view>
+    </scroll-view>
+</view>

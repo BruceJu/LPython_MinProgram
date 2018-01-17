@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    grids: [0, 1, 2, 3, 4, 5, 6, 7]
   },
 
   /**
@@ -47,7 +47,10 @@ Page({
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
-  
+      this.setData({
+        grids: [0, 1, 2, 3, 4, 5]
+      })
+      wx.stopPullDownRefresh();
   },
 
   /**

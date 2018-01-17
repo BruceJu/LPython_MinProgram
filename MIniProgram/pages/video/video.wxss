@@ -1,1 +1,10 @@
-/* pages/video/video.wxss */
+.grid_item_style{
+ 	float:left;
+	width:220rpx;
+	margin:5px;
+  margin-top: 40rpx;
+  padding: 60rpx;
+  text-align: center;
+  background-color:whitesmoke;
+	box-shadow: 5px 5px 5px #888888;
+}
