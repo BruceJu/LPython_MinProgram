@@ -1,5 +1,8 @@
 {
   "pages":[
+    "pages/article/article",
+    "pages/video/video",
+    "pages/job/job",
     "pages/index/index",
     "pages/logs/logs"
   ],
