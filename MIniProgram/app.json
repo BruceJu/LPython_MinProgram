@@ -11,5 +11,25 @@
     "navigationBarBackgroundColor": "#ff0000",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/article/article",
+      "text": "文章",
+      "iconPath": "image/tab_contact_unselect.png",
+      "selectedIconPath": "image/tab_contact_select.png"
+    },
+    {
+      "pagePath": "pages/video/video",
+      "text": "视频",
+        "iconPath": "image/tab_home_unselect.png",
+        "selectedIconPath": "image/tab_home_select.png"
+    },{
+      "pagePath": "pages/job/job",
+      "text": "招聘",
+      "iconPath": "image/tab_more_unselect.png",
+      "selectedIconPath": "image/tab_more_select.png"
+    }
+   ]
   }
 }
